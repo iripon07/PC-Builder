@@ -1,14 +1,17 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Head } from 'next/head'
+import React from 'react'
 
-export default function Home() {
+const Home = () => {
   return (
-    <>
-    <h1 className="text-7xl text-primary">PC Builder</h1>
-    </>
-  );
+    <div>
+      <Head>
+        <title>PC Builder</title>
+        <meta name='description' content='This is PC Builder website'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+      </Head>
+    </div>
+  )
 }
+
+export default Home
