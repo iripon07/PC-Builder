@@ -1,5 +1,5 @@
-
-import { Head } from 'next/head'
+import Hero from '@/components/UI/Hero'
+import Head  from 'next/head'
 import React from 'react'
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
         <meta name='description' content='This is PC Builder website'/>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
+      <Hero/>
     </div>
   )
 }
