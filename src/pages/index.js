@@ -10,7 +10,13 @@ const Home = () => {
         <meta name='description' content='This is PC Builder website'/>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
-      <Hero/>
+      <Hero/> 
+      <div className='lg:mt-[100px] md:mt-[60px] mt-10'>
+        <h1 className='lg:text-5xl md:text-4xl text-2xl text-center font-extrabold'>Featured Products</h1>
+        <div>
+
+        </div>
+      </div>
     </div>
   )
 }
