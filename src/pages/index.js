@@ -1,8 +1,10 @@
+import RootLayout from '@/components/Layout/RootLayout'
 import Hero from '@/components/UI/Hero'
 import Head  from 'next/head'
 import React from 'react'
 
 const Home = () => {
+
   return (
     <div>
       <Head>
@@ -22,3 +24,7 @@ const Home = () => {
 }
 
 export default Home
+
+Home.getLayout = function getLayout(page) {
+  return <RootLayout>{page}</RootLayout>;
+};
